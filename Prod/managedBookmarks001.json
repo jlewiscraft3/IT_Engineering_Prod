@@ -1,0 +1,195 @@
+<#
+.Synopsis
+	Code for Craft3 Desktop
+.Description
+	JSON for craft3 Managed Bookmarks
+.Author
+	James Lewis
+#>
+
+
+# Template with children
+[
+  {
+    "toplevel_name": "Craft3 Desktop"
+  },
+  {
+    "name": "Craft3 Sharepoint",
+    "url": "https://craft3544.sharepoint.com/"
+  },
+  {
+    "name": "ADP Portal",
+    "url": "https://workforcenow.adp.com/"
+  },
+  {
+    "name": "Business Card + NameTag Order Form",
+    "url": "https://www.microsoft.com/"
+  },
+  {
+    "name": "Business Central",
+    "url": "https://intunestuff.com"
+  },
+  {
+    "name": "Craft3 Support Desk Portal",
+    "url": "https://craft3org.atlassian.net/servicedesk/customer/portal/1"
+  },
+  {
+    "name": "Craft3 CRM Dynamics",
+    "url": "https://craft3.crm.dynamics.com/"
+  },
+  {
+    "name": "Concur Travel",
+    "url": "https://www.concursolutions.com/"
+  },
+  {
+    "name": "Email Signature Updater",
+    "url": "https://us.details.exclaimer.net/"
+  },
+  {
+    "name": "Employee Assistance Program",
+    "url": "https://www.fchn.com/members/employeeassistance"
+  },
+  {
+    "name": "Employee Hotline",
+    "url": "https://secure.ethicspoint.com/domain/media/en/gui/33043/index.html"
+  },
+  {
+    "name": "NAVEX One",
+    "url": "https://id2.navexglobal.com/"
+  },
+  {
+    "name": "Performance Dashboard",
+    "url": "https://app.powerbi.com/groups/me/apps/09e0da05-8849-4948-ae5f-f6c35b30cd6d/reports/30db7756-215d-452b-8d08-6ff89e5fc5f8/ReportSectionfb7cf0b4e272838a3ba2?ctid=d80712e8-ce9a-4c22-bfee-69cab17a3c7b&experience=power-bi"
+  },
+  {
+    "name": "Quarantined Email Listing",
+    "url": "https://security.microsoft.com/quarantine?viewid=Email&tid"
+  },
+  {
+    "name": "Scans",
+    "url": "https://craft3544.sharepoint.com/Scans/Forms/AllItems.aspx"
+  },
+  {
+    "name": "Success Factors",
+    "url": "https://hcm41.sapsf.com/"
+  },
+  {
+    "name": "TIAA-CREF",
+    "url": "https://www.tiaa.org/public"
+  },
+  {
+    "name": "Vena Budgeting",
+    "url": "https://vena.io/"
+  },
+  {
+    "name": "Web Equity Craft3 Link",
+    "url": "https://craft3.onlinequity.com/login.aspx"
+  },
+  {
+    "name": "Atlassian Suite", 
+    "children": [
+      {
+        "url": "https://passwordreset.microsoftonline.com/", 
+        "name": "Jira"
+      },
+      {
+        "url": "https://passwordreset.microsoftonline.com/", 
+        "name": "Confluence"
+		},	  
+      {
+        "url": "https://aka.ms/mfasetup", 
+        "name": "Trello"
+		},	  
+      {
+        "url": "https://myapplications.microsoft.com", 
+        "name": "Jira Service Management"
+		},
+		      {
+        "url": "https://portal.manage.microsoft.com/", 
+        "name": "Admin"
+      }
+    ]
+  }
+]
+
+
+# Template without children
+[
+  {
+    "toplevel_name": "Craft3 Desktop"
+  },
+  {
+    "name": "Craft3 Sharepoint",
+    "url": "https://craft3544.sharepoint.com/"
+  },
+  {
+    "name": "ADP Portal",
+    "url": "https://workforcenow.adp.com/"
+  },
+  {
+    "name": "Business Card + NameTag Order Form",
+    "url": "https://www.microsoft.com/"
+  },
+  {
+    "name": "Business Central",
+    "url": "https://intunestuff.com"
+  },
+  {
+    "name": "Craft3 Support Desk Portal",
+    "url": "https://craft3org.atlassian.net/servicedesk/customer/portal/1"
+  },
+  {
+    "name": "Craft3 CRM Dynamics",
+    "url": "https://craft3.crm.dynamics.com/"
+  },
+  {
+    "name": "Concur Travel",
+    "url": "https://www.concursolutions.com/"
+  },
+  {
+    "name": "Email Signature Updater",
+    "url": "https://us.details.exclaimer.net/"
+  },
+  {
+    "name": "Employee Assistance Program",
+    "url": "https://www.fchn.com/members/employeeassistance"
+  },
+  {
+    "name": "Employee Hotline",
+    "url": "https://secure.ethicspoint.com/domain/media/en/gui/33043/index.html"
+  },
+  {
+    "name": "NAVEX One",
+    "url": "https://id2.navexglobal.com/"
+  },
+  {
+    "name": "Performance Dashboard",
+    "url": "https://app.powerbi.com/groups/me/apps/09e0da05-8849-4948-ae5f-f6c35b30cd6d/reports/30db7756-215d-452b-8d08-6ff89e5fc5f8/ReportSectionfb7cf0b4e272838a3ba2?ctid=d80712e8-ce9a-4c22-bfee-69cab17a3c7b&experience=power-bi"
+  },
+  {
+    "name": "Quarantined Email Listing",
+    "url": "https://security.microsoft.com/quarantine?viewid=Email&tid"
+  },
+  {
+    "name": "Scans",
+    "url": "https://craft3544.sharepoint.com/Scans/Forms/AllItems.aspx"
+  },
+  {
+    "name": "Success Factors",
+    "url": "https://hcm41.sapsf.com/"
+  },
+  {
+    "name": "TIAA-CREF",
+    "url": "https://www.tiaa.org/public"
+  },
+  {
+    "name": "Vena Budgeting",
+    "url": "https://vena.io/"
+  },
+  {
+    "name": "Web Equity Craft3 Link",
+    "url": "https://craft3.onlinequity.com/login.aspx"
+  }
+]
+
+
